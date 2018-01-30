@@ -1,0 +1,124 @@
+body {
+    background-color: #dcbb9a;
+}
+
+body #content {
+    font-size: 16px;
+    width: 960px;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: #ffffff;
+}
+
+body #content h1, body #content h2 {
+    color: #893c00;
+}
+
+body #content h1 {
+    text-align: center;
+}
+
+body #content .img-left, body #content .img-right {
+    display: inline;
+    border: 2px solid #893c00;
+    padding: 2px;
+}
+
+body #content .img-left {
+    float: left;
+    margin-right: 20px;
+}
+
+body #content .img-right {
+    float: right;
+    margin-left: 20px;
+}
+
+body #content .brief {
+    color: black;
+    padding: 20px;
+    padding-bottom: 18px;
+    margin-bottom: 0px;
+    margin-right: 16px;
+    background-color: #fadcba;
+    display: inline-block;
+    width: 380px;
+    float: left;
+}
+
+body #content table {
+    border-collapse: collapse;
+    width: 94%;
+}
+
+body #content table th {
+    background-color: #e0e0e0;
+}
+
+body #content table td {
+    border-bottom: 1px solid #e0e0e0;
+    background-color: white;
+}
+
+body #content table td a {
+    color: #3d70a1;
+}
+
+body #content table caption {
+    text-align: right;
+}
+
+body #content table td, body #content table th {
+    padding: 10px;
+    text-align: left;
+}
+
+body #content table th:not(:last-child) {
+    border-right: 1px solid white;
+}
+
+body #content table th {
+    text-transform: uppercase;
+}
+
+body #content a[href="culture.html"] {
+    color: #3d70a1;
+}
+
+body #content div .message-form {
+    color: grey;
+}
+
+body #content div .message-form input, body #content div .message-form textarea {
+    padding: 4px;
+    margin-bottom: 13px;
+    margin-top: 4px;
+}
+
+body #content div .message-form .user-name {
+    display: inline-block;
+}
+
+body #content div .message-form .user-name input {
+    width: 465px;
+}
+
+body #content div .message-form .user-email input, body #content div .message-form .user-rate input {
+    width: 948px;
+}
+
+body #content div .message-form .submit-button {
+    width: 230px;
+    background-color: inherit;
+    border-radius: 0px;
+    color: #3d70a1;
+    font-size: 20px;
+    padding: 10px 40px 10px 40px;
+    border: 1px solid #3d70a1;
+}
+
+body #content div .message-form .submit-button:hover {
+    background: silver;
+}
+
+/*# sourceMappingURL=style1.css.map */

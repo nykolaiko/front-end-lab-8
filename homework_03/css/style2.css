@@ -1,0 +1,131 @@
+body {
+    background-color: rgba(198, 238, 252, 0.53);
+}
+
+body #content {
+    color: white;
+    font-size: 16px;
+    width: 960px;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: #3b3b3b;
+}
+
+body #content h1, body #content h2 {
+    color: #fccd10;
+}
+
+body #content h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+body #content .img-left, body #content .img-right {
+    display: inline;
+    border: 2px solid #fccd10;
+    padding: 2px;
+}
+
+body #content .img-left {
+    float: left;
+    margin-right: 20px;
+}
+
+body #content .img-right {
+    float: right;
+    margin-left: 20px;
+}
+
+body #content .brief {
+    color: black;
+    padding: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    margin-right: 0px;
+    background-color: #fff178;
+    display: block;
+    float: none;
+}
+
+body #content table {
+    border-collapse: collapse;
+    width: 94%;
+}
+
+body #content table caption {
+    color: black;
+}
+
+body #content table th {
+    background-color: #94a34e;
+    color: black;
+}
+
+body #content table td {
+    border-bottom: 1px solid #94a34e;
+    color: white;
+    background-color: #677d01;
+}
+
+body #content table td a {
+    color: #f5c70f;
+}
+
+body #content table caption {
+    text-align: right;
+}
+
+body #content table td, body #content table th {
+    padding: 10px;
+    text-align: left;
+}
+
+body #content table th:not(:last-child) {
+    border-right: 1px solid white;
+}
+
+body #content table th {
+    text-transform: uppercase;
+}
+
+body #content a[href="culture.html"] {
+    color: #fccd10;
+}
+
+body #content div .message-form {
+    color: #f5c70f;
+}
+
+body #content div .message-form input, body #content div .message-form textarea {
+    padding: 4px;
+    margin-bottom: 13px;
+    margin-top: 4px;
+}
+
+body #content div .message-form .user-name {
+    display: inline-block;
+}
+
+body #content div .message-form .user-name input {
+    width: 465px;
+}
+
+body #content div .message-form .user-email input, body #content div .message-form .user-rate input {
+    width: 948px;
+}
+
+body #content div .message-form .submit-button {
+    width: 230px;
+    background-color: inherit;
+    border-radius: 0px;
+    color: #f5c70f;
+    font-size: 20px;
+    padding: 10px 40px 10px 40px;
+    border: 1px solid #f5c70f;
+}
+
+body #content div .message-form .submit-button:hover {
+    background: silver;
+}
+
+/*# sourceMappingURL=style2.css.map */

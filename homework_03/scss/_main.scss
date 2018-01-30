@@ -1,0 +1,127 @@
+body {
+  background-color: $body-col;
+
+  #content {
+    color: $main-font-col;
+    font-size: 16px;
+    width: 960px;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: $main-bg-col;
+
+    h1, h2 {
+      color: $headers-col;
+    }
+
+    h1 {
+      text-align: center;
+      text-transform: $h1-uppercase;
+    }
+
+    %img-style {
+      display: inline;
+      border: 2px solid $img-border-col;
+      padding: 2px;
+    }
+
+    .img-left {
+      @extend %img-style;
+      float: left;
+      margin-right: 20px;
+    }
+
+    .img-right {
+      @extend %img-style;
+      float: right;
+      margin-left: 20px;
+    }
+
+    .brief {
+      color: black;
+      padding: 20px;
+      padding-bottom: $brief-b-padding;
+      margin-bottom: $brief-b-margin;
+      margin-right: $brief-r-margin;
+      background-color: $brief-bg-col;
+      display: $brief-display;
+      width: $brief-width;
+      float: $brief-float;
+    }
+
+    @mixin t-prop($th-bg-col, $td-col, $td-bg-col, $table-a-col, $caption-col, $td-border-col) {
+      caption {
+        color: $caption-col;
+      }
+      th {
+        background-color: $th-bg-col;
+        color: $th-col;
+      }
+      td {
+        border-bottom: 1px solid $td-border-col;
+        color: $td-col;
+        background-color: $td-bg-col;
+        a {
+          color: $table-a-col;
+        }
+      }
+    }
+
+    table {
+      @include t-prop($th-bg-col, $td-col, $td-bg-col, $table-a-col, $caption-col, $td-border-col);
+      border-collapse: collapse;
+      width: 94%;
+      caption {
+        text-align: right;
+      }
+      td, th {
+        padding: 10px;
+        text-align: left;
+      }
+      th:not(:last-child) {
+        border-right: 1px solid white;
+      }
+      th {
+        text-transform: uppercase;
+      }
+    }
+
+    a[href="culture.html"] {
+      color: $a-culture-col;
+    }
+
+    div {
+      .message-form {
+        color: $form-font-col;
+        input, textarea {
+          padding: 4px;
+          margin-bottom: 13px;
+          margin-top: 4px;
+        }
+        .user-name {
+          display: inline-block;
+          input {
+            width: 465px;
+          }
+        }
+        .user-email, .user-rate {
+          input {
+            width: 948px;
+          }
+        }
+        .submit-button {
+          width: 230px;
+          background-color: inherit;
+          border-radius: 0px;
+          color: $form-button-col;
+          font-size: 20px;
+          padding: 10px 40px 10px 40px;
+          border: 1px solid $form-button-col;
+        }
+
+        .submit-button:hover {
+          background: silver;
+        }
+      }
+    }
+  }
+}
